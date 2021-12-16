@@ -1,0 +1,16 @@
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\bin\Debug\net5.0\ExemploColecoes.exe
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\bin\Debug\net5.0\ExemploColecoes.deps.json
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\bin\Debug\net5.0\ExemploColecoes.runtimeconfig.json
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\bin\Debug\net5.0\ExemploColecoes.runtimeconfig.dev.json
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\bin\Debug\net5.0\ExemploColecoes.dll
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\bin\Debug\net5.0\ref\ExemploColecoes.dll
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\bin\Debug\net5.0\ExemploColecoes.pdb
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ExemploColecoes.csproj.AssemblyReference.cache
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ExemploColecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ExemploColecoes.AssemblyInfoInputs.cache
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ExemploColecoes.AssemblyInfo.cs
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ExemploColecoes.csproj.CoreCompileInputs.cache
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ExemploColecoes.dll
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ref\ExemploColecoes.dll
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ExemploColecoes.pdb
+C:\Users\jadia\source\repos\ExemploColecoes\ExemploColecoes\obj\Debug\net5.0\ExemploColecoes.genruntimeconfig.cache
