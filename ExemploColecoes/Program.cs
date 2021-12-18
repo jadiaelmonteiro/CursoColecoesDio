@@ -6,6 +6,28 @@ namespace ExemploColecoes
     {
         static void Main(string[] args)
         {
+
+            //declarando uma matriz já com os dados do array
+            int[,] matriz = new int[4, 2] 
+            {
+                { 8, 8 },
+                {10, 20 },
+                {50, 100 },
+                {90, 200 }
+            };
+
+            // laço para linhas
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                //laço para as colunas
+                for(int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.WriteLine(matriz[i, j]);
+                }
+            }
+            
+
+
             //declarando array
             int[] arrayInteiros = new int[3];
 
