@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExemploColecoes.Helper;
+using System;
 
 namespace ExemploColecoes
 {
@@ -6,7 +7,19 @@ namespace ExemploColecoes
     {
         static void Main(string[] args)
         {
+            OperacoesArray op = new OperacoesArray();
+            int[] array = new int[5] {6, 3, 8, 1, 9};
+            Console.WriteLine("Array original");
+            op.ImprimirArray(array);
+           
+            op.OrdenarBubbleSort(ref array);
+            Console.WriteLine("Array ordenado");
+            op.ImprimirArray(array);
+            Console.WriteLine();
 
+
+
+            Console.WriteLine("Matriz");
             //declarando uma matriz já com os dados do array
             int[,] matriz = new int[4, 2] 
             {
