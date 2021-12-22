@@ -9,11 +9,11 @@ namespace ExemploColecoes
         {
             OperacoesArray op = new OperacoesArray();
             int[] array = new int[5] {6, 3, 8, 1, 9};
-            Console.WriteLine("Array original");
+            Console.WriteLine("Array original:");
             op.ImprimirArray(array);
            
             op.OrdenarBubbleSort(ref array);
-            Console.WriteLine("Array ordenado");
+            Console.WriteLine("Array ordenado:");
             op.ImprimirArray(array);
             Console.WriteLine();
 
@@ -39,8 +39,6 @@ namespace ExemploColecoes
                 }
             }
             
-
-
             //declarando array
             int[] arrayInteiros = new int[3];
 
@@ -63,7 +61,12 @@ namespace ExemploColecoes
             {
                 Console.WriteLine(item);
             }
-            
+            Console.WriteLine();
+            Console.WriteLine($"Capacidade atual do array: {array.Length}");
+            //dobrando de tamanho o array
+            op.RedimencionarArray(ref array, array.Length * 2);
+
+            Console.WriteLine($"Capacidade atualizada do array: {array.Length}");
         }
     }
 }

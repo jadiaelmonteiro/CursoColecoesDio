@@ -25,10 +25,15 @@ namespace ExemploColecoes.Helper
         //Metodo p imprimir o array em console
         public void ImprimirArray(int[] array)
         {
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.WriteLine(array[i]);
-            }
+            var linha = string.Join(", ", array);            
+            Console.WriteLine(linha);
+            
+        }
+        
+        //Metodo p redimencionar o array.
+        public void RedimencionarArray(ref int[] array, int novoTamanho)
+        {
+            Array.Resize(ref array, novoTamanho);
         }
     }
 }
