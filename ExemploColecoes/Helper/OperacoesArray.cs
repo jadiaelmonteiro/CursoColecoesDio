@@ -35,5 +35,11 @@ namespace ExemploColecoes.Helper
         {
             Array.Resize(ref array, novoTamanho);
         }
+
+        //Metodo p converter um array
+        public string[] ConverterParaArrayString(int[] array)
+        {
+            return Array.ConvertAll(array, elemento => elemento.ToString());
+        }
     }
 }

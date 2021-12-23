@@ -17,8 +17,6 @@ namespace ExemploColecoes
             op.ImprimirArray(array);
             Console.WriteLine();
 
-
-
             Console.WriteLine("Matriz");
             //declarando uma matriz já com os dados do array
             int[,] matriz = new int[4, 2] 
@@ -67,6 +65,8 @@ namespace ExemploColecoes
             op.RedimencionarArray(ref array, array.Length * 2);
 
             Console.WriteLine($"Capacidade atualizada do array: {array.Length}");
+
+            string[] arrayString = op.ConverterParaArrayString(array);
         }
     }
 }
