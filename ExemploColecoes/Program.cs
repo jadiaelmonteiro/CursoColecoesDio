@@ -1,5 +1,6 @@
 ﻿using ExemploColecoes.Helper;
 using System;
+using System.Collections.Generic;
 
 namespace ExemploColecoes
 {
@@ -7,6 +8,32 @@ namespace ExemploColecoes
     {
         static void Main(string[] args)
         {
+            //declarando uma lista
+            List<String> estados = new List<string>();
+
+            estados.Add("SP");
+            estados.Add("MG");
+            estados.Add("PE");
+
+            Console.WriteLine($"Quantidade de elementos na lista: {estados.Count}");
+            //var item irá representar cada elemento da lista.
+            foreach(var item in estados)
+            {
+                Console.Write(item + " ");
+            }
+
+            //pulando uma linha
+            Console.WriteLine();
+            //imprimindo usando o for
+            for(int i = 0; i < estados.Count; i++)
+            {
+                Console.Write($", Indices {i} valor: " + estados[i]);
+            }
+            Console.WriteLine();
+
+
+
+
             OperacoesArray op = new OperacoesArray();
             int[] array = new int[5] {6, 3, 8, 1, 9};
             Console.WriteLine("Array original:");
@@ -36,6 +63,7 @@ namespace ExemploColecoes
                     Console.WriteLine(matriz[i, j]);
                 }
             }
+            Console.WriteLine();
             
             //declarando array
             int[] arrayInteiros = new int[3];
