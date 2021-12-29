@@ -27,8 +27,12 @@ namespace ExemploColecoes
             Console.WriteLine("Removendo um elemento da lista.");
             estados.Remove("MG");
             Console.WriteLine($"Quantidade de elementos na lista: {estados.Count}");
-          
+            opLista.ImprimirListaString(estados);
+            Console.WriteLine();
 
+            Console.WriteLine("Adicionando um elemento da lista.");
+            estados.Insert(1, "BA");
+            Console.WriteLine($"Quantidade de elementos na lista: {estados.Count}");
             opLista.ImprimirListaString(estados);
 
             //pulando duas linha
