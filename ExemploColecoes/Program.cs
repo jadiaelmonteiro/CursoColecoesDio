@@ -8,6 +8,31 @@ namespace ExemploColecoes
     {
         static void Main(string[] args)
         {
+            //criando uma fila
+            Queue<string> fila = new Queue<string>();
+            fila.Enqueue("Jadiael");
+            fila.Enqueue("Davi");
+            fila.Enqueue("Elizabeth");
+
+            Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+            //laço de repetição
+            while(fila.Count > 0)
+            {
+                //mostrando alguem da fila
+                Console.WriteLine($"Vez de: {fila.Peek()}");
+                //mostrtando e removendo alguem da fila
+                Console.WriteLine($"{fila.Dequeue()} atendido");
+            }
+
+            Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+            //pular duas linhas
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+
             OperacoesLista opLista = new OperacoesLista();
             //declarando uma lista
             List<String> estados = new List<string>();
