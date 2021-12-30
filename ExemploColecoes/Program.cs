@@ -8,6 +8,28 @@ namespace ExemploColecoes
     {
         static void Main(string[] args)
         {
+            //criando uma pilha de livros estilo LIFO (ÚLTIMO A ENTRARA É O PRIMEIRA A SAIR)
+            Stack<string> pilhaLivros = new Stack<string>();
+            //adicionando elementos na pilha
+            pilhaLivros.Push(".NET");
+            pilhaLivros.Push("Java como programar");
+            pilhaLivros.Push("Código Limpo");
+            pilhaLivros.Push("DDD");
+
+            Console.WriteLine($"Livros para leitura: {pilhaLivros.Count}");
+            while(pilhaLivros.Count > 0)
+            {
+                //obtendo o elemento do topo da pilha
+                Console.WriteLine($"Próximo livro para a leitura: {pilhaLivros.Peek()}");
+                //obtendo e removendo o elemento do topo da pilha
+                Console.WriteLine($"{pilhaLivros.Pop()} lido com sucesso.");
+            }
+            Console.WriteLine($"Livros para leitura: {pilhaLivros.Count}");
+
+            //pulando duas linhas
+            Console.WriteLine();
+            Console.WriteLine();
+
             //criando uma fila
             Queue<string> fila = new Queue<string>();
             fila.Enqueue("Jadiael");
@@ -30,8 +52,6 @@ namespace ExemploColecoes
             //pular duas linhas
             Console.WriteLine();
             Console.WriteLine();
-
-
 
             OperacoesLista opLista = new OperacoesLista();
             //declarando uma lista
